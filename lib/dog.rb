@@ -7,8 +7,12 @@ class Dog
     @@all << @name
   end
   
-  def self.all
+  def all
     @@all
+  end
+  
+  def clear_all
+    @@all = []
   end
   
   def self.print_all
